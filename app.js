@@ -6,7 +6,7 @@
 
 let listaDeNumerosSorteados = []; // Criando uma lista vazia para armazenar os numeros que ja foram sorteados.
 
-let numeroLimite = 100; // Variável de limite para colocar um limite na hora de gerar um número aleátorio
+let numeroLimite = 50; // Variável de limite para colocar um limite na hora de gerar um número aleátorio
 
 let numeroAleatorio = gerarNumeroAleatorio(); // Amarzenado o número aleatório em uma variavel.
 let tentativa = 1; // variável para ver quantas tentativas o usuário precisou usar para acerta o número secreto.
@@ -22,7 +22,7 @@ function exibirTextoNaTag(tag,texto) {
 
 function frasesInicialDoJogo() {
     exibirTextoNaTag('h1', 'Jogo do número secreto.'); // Chamando a função para exibir no HTML e passando os parâmetro nele.
-    exibirTextoNaTag('p', 'Escolha um número entre 1 e 100.');
+    exibirTextoNaTag('p', 'Escolha um número entre 1 e 50.');
 }
 
 frasesInicialDoJogo();
